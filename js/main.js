@@ -1,13 +1,10 @@
 let API = "http://localhost:8000/foods";
 // let addBtn = document.querySelector(".addBtn");
 let addBtn = document.querySelector("#addMenuBtn");
-
-// Получаем модальное окно и кнопку для открытия
 let modal = document.getElementById("modal");
 let inpName = document.querySelector(".inpName");
 let inpPrice = document.querySelector(".inpPrice");
 let inpImg = document.querySelector(".inpImg");
-
 let inpEditName = document.querySelector(".inpEditName");
 let inpEditPrice = document.querySelector(".inpEditPrice");
 let inpEditImg = document.querySelector(".inpEditImg");
@@ -19,43 +16,29 @@ let searchValue = "";
 // const nextBtn = document.querySelector("#nextBtn");
 // let countPage = 1;
 // let currentPage = 1;
-// Когда пользователь кликает на кнопку "Добавить Меню", открываем модальное окно
 //!ГЛАВНАЯ КНОПКА ДОБАВИТЬ
 addBtn.addEventListener("click", function () {
   modal.style.display = "block";
 });
-
-// Получаем элемент для закрытия модального окна
 let closeBtn = document.querySelector(".close");
-// Когда пользователь кликает на крестик, закрываем модальное окно
 closeBtn.addEventListener("click", function () {
   modal.style.display = "none";
 });
-
-// Добавляем обработчик события для кнопки "Добавить" в модальном окне
 let modalAddButton = document.querySelector("#modalAddButton");
 modalAddButton.addEventListener("click", function () {
-  // Получаем значения из всех трех инпутов
   let inputs = document.querySelectorAll(".modal-body input");
   let values = Array.from(inputs).map((input) => input.value);
-  // Если хотя бы одно поле пустое, выводим сообщение об ошибке
   //! CREATE
   if (!values.every((value) => value.trim())) {
     alert("Заполните все поля!");
     return;
   }
-
-  // Создаем объект с данными о новом блюде
   let newFood = {
     foodName: values[0],
     foodPrice: values[1],
     foodImg: values[2],
   };
-
-  // Отправляем данные на сервер
   createFood(newFood);
-
-  // Очищаем значения инпутов
   inputs.forEach((input) => (input.value = ""));
 
   // Закрываем модальное окно
