@@ -10,7 +10,7 @@ let inpEditPrice = document.querySelector(".inpEditPrice");
 let inpEditImg = document.querySelector(".inpEditImg");
 let modalSaveButton = document.querySelector("#modalSaveButton");
 let sectionFood = document.querySelector(".sectionFood");
-const inpSearch = document.querySelector("#inpSearch");
+const inpSearch = document.querySelector(".inpSearch");
 let searchValue = "";
 // const prevBtn = document.querySelector("#prevBtn");
 // const nextBtn = document.querySelector("#nextBtn");
@@ -41,10 +41,8 @@ modalAddButton.addEventListener("click", function () {
   createFood(newFood);
   inputs.forEach((input) => (input.value = ""));
 
-  // Закрываем модальное окно
   modal.style.display = "none";
 });
-
 function createFood(food) {
   fetch(API, {
     method: "POST",
@@ -81,7 +79,7 @@ async function readFood() {
         Удалить
       </button>
       <button class="btnEdit" id= "${elem.id}">
-      Редактировать
+     Редактировать
     </button>
     </div></div>
 </div>
@@ -153,10 +151,10 @@ inpSearch.addEventListener("input", (e) => {
   // console.log(search.value);
   readFood();
 });
-// inpSearch.addEventListener("input", () => {
-//   const searchQuery = inpSearch.value.trim();
-//   readFood(searchQuery);
-// });
+inpSearch.addEventListener("input", () => {
+  const searchQuery = inpSearch.value.trim();
+  readFood(searchQuery);
+});
 //! PAGINATION
 // async function pageFunc() {
 //   const res = await fetch(API);
