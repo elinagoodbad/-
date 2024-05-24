@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* width: 100%; */
+}
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-image: url(../img/bg2.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1440px;
+  border: 2px solid rgb(61, 7, 90);
+  position: absolute;
+  text-align: center;
+  opacity: 0.9px;
+}
+.navbar {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+}
+.navbar input {
+}
+.addBtn {
+  font-family: Amatic SC;
+  width: 500px;
+  height: 100px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  margin-top: 250px;
+  margin-right: 500px;
+  background: linear-gradient(90deg, #1a0822 0%, #888fa3 100%);
+  /* background-image: url(../img/2.webp); */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.28);
+  text-shadow: 0 6px 8px rgba(0, 0, 0, 0.28);
+  opacity: 0.8;
+}
+h1 {
+  font-family: Amatic SC;
+  font-size: 90px;
+  font-weight: 900;
+
+  text-transform: uppercase;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  opacity: 0.5;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* .section {
+  margin-top: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  background-image: url(../img/bg2.jpeg);
+} */
+h2 {
+  /* background: linear-gradient(90deg, #1a0822 0%, #888fa3 100%); */
+  opacity: 0.7;
+  background-color: white;
+  margin-top: 90px;
+  font-family: Amatic SC;
+  font-size: 100px;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+a {
+  text-decoration: none;
+  /* color: inherit; */
+}
+.inpSearch {
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+
+  background: linear-gradient(90deg, #1a0822 0%, #888fa3 100%);
+  /* background-image: url(../img/2.webp); */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.28);
+  text-shadow: 0 6px 8px rgba(0, 0, 0, 0.28);
+  opacity: 0.8;
+}
+/* .searchBtn {
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+
+  background: linear-gradient(90deg, #1a0822 0%, #888fa3 100%);
+  background-image: url(../img/search.svg);
+  background-repeat: no-repeat;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.28);
+  text-shadow: 0 6px 8px rgba(0, 0, 0, 0.28);
+  opacity: 0.8;
+} */
+/* .book {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #1a0822;
+  width: 200px;
+  height: 150px;
+}
+.cardImg {
+  width: 200px;
+  height: 150px;
+  border: 2 px solid black;
+} */
+.section {
+  margin-top: 280px;
+}
+.sectionFood {
+  /* background-color: antiquewhite; */
+  background-image: url(../img/fon.jpeg);
+  opacity: 0.9;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center; /* Центрируем по горизонтали */
+  flex-wrap: wrap; /* Разрешаем перенос элементов на следующую строку */
+}
+
+.book {
+  width: 10rem;
+  margin: 1rem; /* Добавляем отступы между карточками */
+  display: flex;
+  flex-direction: column; /* Устанавливаем направление в столбец */
+  align-items: center; /* Центрируем элементы по вертикали */
+}
+
+.cardBook {
+  width: 100%;
+}
+
+.cardImg {
+  width: 150px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cardTitle {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.btnEdit {
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  margin-top: 5px;
+  background: linear-gradient(90deg, #1a0822 0%, #888fa3 100%);
+  /* background-image: url(../img/2.webp); */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.28);
+  text-shadow: 0 6px 8px rgba(0, 0, 0, 0.28);
+  opacity: 0.8;
+}
+.btnDelete {
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  margin-top: 5px;
+  background: linear-gradient(90deg, #1a0822 0%, #888fa3 100%);
+  /* background-image: url(../img/2.webp); */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.28);
+  text-shadow: 0 6px 8px rgba(0, 0, 0, 0.28);
+  opacity: 0.8;
+}
+
+.editModal {
+  display: none;
+}

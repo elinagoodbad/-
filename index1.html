@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="navbar">
+          <h2><a href="#menu">Мясная лавка Большого Дейва</a></h2>
+          <div class="search">
+            <input class="inpSearch" type="text" placeholder="Search" />
+            <!-- <button class="searchBtn"></button> -->
+            <img src="./img/search.svg" alt="" />
+          </div>
+        </div>
+      </nav>
+      <div class="info">
+        <div class="btnAdd">
+          <button id="addMenuBtn" class="addBtn">ДОБАВИТЬ МЕНЮ</button>
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="modal-body">
+                <input
+                  class="inpName"
+                  type="text"
+                  placeholder="Название блюда"
+                />
+                <input class="inpPrice" type="text" placeholder="Цена блюда" />
+                <input class="inpImg" type="url" placeholder="Фото блюда" />
+                <button id="modalAddButton">Добавить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="menu" class="section">
+        <h1>МЕНЮ</h1>
+        <section class="sectionFood"></section>
+      </div>
+      <div class="editModal">
+        <input class="inpEditName" type="text" placeholder="Название блюда" />
+        <input class="inpEditPrice" type="text" placeholder="Цена блюда" />
+        <input class="inpEditImg" type="url" placeholder="Фото блюда" />
+        <button id="modalSaveButton">Сохранить</button>
+      </div>
+      <!-- PAGINATION -->
+      <!-- <div class="pagin">
+        <ul class="pagination1">
+          <li class="page">
+            <a id="prevBtn" class="page-link" href="#">Previous</a>
+          </li>
+          <li class="page">
+            <a id="nextBtn" class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </div> -->
+      <!-- PAGINATION -->
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

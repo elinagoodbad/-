@@ -1,0 +1,88 @@
+{
+  "foods": [
+    {
+      "foodName": "Милкшейк \"Мейбл\"",
+      "foodPrice": "20$",
+      "foodImg": "https://картинки-для-срисовки.рф/media/posts_admins/gravity-falls/mejbl-i-puhlya-pyut-koktejl.jpg",
+      "id": 1
+    },
+    {
+      "foodName": "Френдз пицца",
+      "foodPrice": "22$",
+      "foodImg": "https://kartinki.pics/uploads/posts/2021-07/1625866390_3-kartinkin-com-p-parnie-oboi-meibl-i-pukhlya-razdelennie-kr-4.jpg",
+      "id": 2
+    },
+    {
+      "foodName": "Питт Кола",
+      "foodPrice": "18$",
+      "foodImg": "https://static.wikia.nocookie.net/gravityfalls/images/0/0c/S1e17_pitt_cola_ru.png/revision/latest?cb=20151028102926&path-prefix=ru",
+      "id": 3
+    },
+    {
+      "foodName": "Улыбашки",
+      "foodPrice": "15$",
+      "foodImg": "https://static.wikia.nocookie.net/gravityfalls/images/4/4e/С1э5_Улыбашки.png/revision/latest/smart/width/250/height/250?cb=20150821201339&path-prefix=ru",
+      "id": 4
+    },
+    {
+      "foodName": "Конфеты неудачников",
+      "foodPrice": "18$",
+      "foodImg": "https://static.wikia.nocookie.net/gravityfalls/images/e/e0/S1e12_loser_candy_bowl.png/revision/latest?cb=20140426114426&path-prefix=ru",
+      "id": 5
+    },
+    {
+      "foodName": "Печеньки",
+      "foodPrice": "15$",
+      "foodImg": "https://static.wikia.nocookie.net/gravityfalls/images/b/b9/S1e16_cookie_chips.png/revision/latest?cb=20160205162705&path-prefix=ru",
+      "id": 6
+    },
+    {
+      "foodName": "Сок Мейбл",
+      "foodPrice": "16$",
+      "foodImg": "https://static.wikia.nocookie.net/gravityfalls/images/4/41/S2e4_mabel_juice.png/revision/latest/smart/width/250/height/250?cb=20141105024235",
+      "id": 7
+    },
+    {
+      "foodName": "Сырные крекеры",
+      "foodPrice": "18$",
+      "foodImg": "https://static.wikia.nocookie.net/gravityfalls/images/b/b8/S2e13_Cheese_Boodles.jpg/revision/latest?cb=20150805021927",
+      "id": 8
+    },
+    {
+      "foodName": "Торт \"Party\"",
+      "foodPrice": "25$",
+      "foodImg": "https://sun9-62.userapi.com/impg/s4QPeQy8L_7AhidQJa4mmB3y-8iMOB4oaYo_DQ/rRKBXnKBaP0.jpg?size=800x450&quality=96&sign=8b81bc9bdc3de52862c37c467bd80104&type=album",
+      "id": 9
+    },
+    {
+      "foodName": "Пицца \"Попа не сплипнется!\"",
+      "foodPrice": "23$",
+      "foodImg": "https://i.pinimg.com/originals/6c/3b/d6/6c3bd6336d42af2b57f2e813cb696134.png",
+      "id": 10
+    },
+    {
+      "foodName": "Барон Ням Ням",
+      "foodPrice": "19$",
+      "foodImg": "https://static.wikia.nocookie.net/gravityfalls/images/8/86/S2e9_sprott.png/revision/latest?cb=20141125063550",
+      "id": 11
+    },
+    {
+      "foodName": "Толстый клык коневого пива",
+      "foodPrice": "15$",
+      "foodImg": "https://static.wikia.nocookie.net/gravityfalls/images/0/01/S2e3_tubby_tusk_root_beer_2.png/revision/latest?cb=20140813114401",
+      "id": 12
+    },
+    {
+      "foodName": "Жевательные конфетки",
+      "foodPrice": "14$",
+      "foodImg": "https://static.wikia.nocookie.net/gravityfalls/images/8/89/S1e11_mabel_eating.png/revision/latest/smart/width/386/height/259?cb=20130506021307",
+      "id": 13
+    },
+    {
+      "foodName": "Арахисовые ириски",
+      "foodPrice": "12$",
+      "foodImg": "https://static.wikia.nocookie.net/gravityfalls/images/c/c8/S2e12_Stanford_keeps_pack.png/revision/latest?cb=20160723081428&path-prefix=ru",
+      "id": 15
+    }
+  ]
+}
